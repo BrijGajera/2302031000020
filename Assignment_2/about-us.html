@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reno - Contact Us</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            color: black;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        /* Navbar (Header) */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 50px;
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #007BFF;
+        }
+
+        .navbar .logo span {
+            color: #d9e6f2;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Section */
+        main {
+            flex: 1;
+            display: flex;
+            justify-content: space-between;
+            padding: 50px;
+            background-color: #f8f9fa;
+        }
+
+        /* Left side - Let's work together text and button */
+        .text-left {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        .text-left h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .text-left p {
+            font-size: 18px;
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .button-container {
+            margin-top: 20px;
+        }
+
+        .button-container a {
+            background-color: #007BFF;
+            color: white;
+            font-size: 18px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .button-container a:hover {
+            background-color: #0056b3;
+        }
+
+        /* Right side - Contact information */
+        .contact-right {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            padding-left: 50px;
+        }
+
+        .contact-info {
+            font-size: 16px;
+            color: #555;
+            line-height: 2;
+        }
+
+        .contact-info p {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .contact-info a {
+            font-size: 16px;
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #f3f7f7;
+            color: #1d5b4f;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            font-size: 14px;
+        }
+
+        .footer-column {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .footer-column h4 {
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .footer-column a {
+            color: #1d5b4f;
+            text-decoration: none;
+            margin-bottom: 5px;
+        }
+
+        .footer-column a:hover {
+            text-decoration: underline;
+        }
+
+        .company-info {
+            max-width: 250px;
+        }
+
+        .company-info p {
+            margin-bottom: 10px;
+        }
+
+        .contact-info {
+            line-height: 1.6;
+        }
+
+        .contact-info a {
+            display: block;
+            margin-top: 5px;
+        }
+
+        .privacy-policy {
+            text-align: right;
+        }
+
+        .privacy-policy a {
+            margin-left: 10px;
+            text-decoration: none;
+        }
+
+        .privacy-policy a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Navbar (Header) -->
+    <div class="navbar">
+        <div class="logo">
+            Reno<span> Home Renovation</span>
+        </div>
+        <div class="nav-links">
+            <a href="home.html">Home</a>
+            <a href="how-it-works.html">How it works</a>
+            <a href="services.html">Services</a>
+            <a href="contractors.html">Contractors</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="login.html">Log in</a>
+        </div>
+    </div>
+
+    <!-- Main Section -->
+    <main>
+        <!-- Left section - Let's work on your project text -->
+        <div class="text-left">
+            <h1>Let’s work on your project together!</h1>
+            <p>Schedule a call with our team to discuss your renovation needs, or feel free to reach out via phone or email.</p>
+            <div class="button-container">
+                <a href="#">Schedule a Call</a>
+            </div>
+        </div>
+
+        <!-- Right section - Contact options -->
+        <div class="contact-right">
+            <div class="contact-info">
+                <p><strong>Email:</strong> <a href="mailto:hello@reno.com">hello@reno.com</a></p>
+                <p><strong>Phone:</strong> <a href="tel:18002343432">1 800 234 3432</a></p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-column company-info">
+            <p>We're redefining what it means to renovate.</p>
+            <p>Reno simplifies the chaos and costs of construction by bringing design, sourcing, and vetted contractors all under one roof.</p>
+            <p>© Reno 2021</p>
+        </div>
+    
+        <div class="footer-column">
+            <h4>Services</h4>
+            <a href="#">Bathrooms</a>
+            <a href="#">Kitchens</a>
+            <a href="#">Basements</a>
+        </div>
+    
+        <div class="footer-column contact-info">
+            <h4>Contact</h4>
+            <a href="tel:18002343432">1 800 234 3432</a>
+            <a href="mailto:hello@reno.com">hello@reno.com</a>
+        </div>
+    
+        <div class="footer-column privacy-policy">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Use</a>
+        </div>
+    </footer>
+
+</body>
+</html>

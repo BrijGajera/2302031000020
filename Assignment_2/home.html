@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reno - Home Renovation Simplified</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            color: black;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        /* Navbar (Header) */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 50px;
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #007BFF;
+        }
+
+        .navbar .logo span {
+            color: #d9e6f2;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Section */
+        main {
+            flex: 1;
+            display: flex;
+            justify-content: space-between;
+            padding: 50px;
+        }
+
+        /* Text Content on Left */
+        .text-content {
+            flex: 1;
+            margin-right: 50px;
+            text-align: left;
+        }
+
+        .text-content h1 {
+            font-size: 40px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .text-content p {
+            font-size: 18px;
+            color: #555;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+
+        .button-container {
+            margin-top: 20px;
+        }
+
+        .button-container a {
+            background-color: #007BFF;
+            color: white;
+            font-size: 18px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+
+        .button-container a:hover {
+            background-color: #0056b3;
+        }
+
+        /* Image Container on Right */
+        .image-container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .image-container img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        /*footer*/ {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    footer {
+      background-color: #f3f7f7;
+      color: #1d5b4f;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      font-size: 14px;
+    }
+
+    .footer-column {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .footer-column h4 {
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    .footer-column a {
+      color: #1d5b4f;
+      text-decoration: none;
+      margin-bottom: 5px;
+    }
+
+    .footer-column a:hover {
+      text-decoration: underline;
+    }
+
+    .company-info {
+      max-width: 250px;
+    }
+
+    .company-info p {
+      margin-bottom: 10px;
+    }
+
+    .contact-info {
+      line-height: 1.6;
+    }
+
+    .contact-info a {
+      display: block;
+      margin-top: 5px;
+    }
+
+    .privacy-policy {
+      text-align: right;
+    }
+
+    .privacy-policy a {
+      margin-left: 10px;
+      text-decoration: none;
+    }
+
+    .privacy-policy a:hover {
+      text-decoration: underline;
+    }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar (Header) -->
+    <div class="navbar">
+        <div class="logo">
+            Reno<span> Home Renovation</span>
+        </div>
+        <div class="nav-links">
+            <a href="home.html">Home</a>
+            <a href="how-it-works.html">How it works</a>
+            <a href="services.html">Services</a>
+            <a href="contractors.html">Contractors</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="login.html">Log in</a>
+        </div>
+    </div>
+
+    <!-- Main Section -->
+    <main>
+        <!-- Text Content (Pushed to Left) -->
+        <div class="text-content">
+            <h1>Renovations Simplified.</h1>
+            <p>A streamlined platform to design, plan, and build — all in one place.</p>
+            <div class="button-container">
+                <a href="get-estimate.html">Get Your Estimate</a>
+                <a href="about-us.html">About Us</a>
+            </div>
+        </div>
+
+        <!-- Image Container (On Right) -->
+        <div class="image-container">
+            <img src="images/home-renovation1.jpg" alt="Home Renovation 1">
+            <img src="images/home-renovation2.jpg" alt="Home Renovation 2">
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-column company-info">
+          <p>We're redefining what it means to renovate.</p>
+          <p>Reno simplifies the chaos and costs of construction by bringing design, sourcing, and vetted contractors all under one roof.</p>
+          <p>© Reno 2021</p>
+        </div>
+    
+        <div class="footer-column">
+          <h4>Services</h4>
+          <a href="#">Bathrooms</a>
+          <a href="#">Kitchens</a>
+          <a href="#">Basements</a>
+        </div>
+    
+        <div class="footer-column contact-info">
+          <h4>Contact</h4>
+          <a href="tel:18002343432">1 800 234 3432</a>
+          <a href="mailto:hello@reno.com">hello@reno.com</a>
+        </div>
+    
+        <div class="footer-column privacy-policy">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Use</a>
+        </div>
+      </footer>
+
+</body>
+</html>
